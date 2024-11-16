@@ -1,3 +1,8 @@
+@font-face {
+    src: url(fonts/Staatliches-Regular.ttf);
+    font-family: Staatliches;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -115,81 +120,156 @@ body {
 
 .ProductImage{
     background: rgba(209, 206, 206, 0.5);
-    border-radius: 10px;
-    width: 500px;
-    height: 500px;
+    border-radius: 80px;
+    width: 750px;
+    height: 750px;
     position: absolute;
     left: 5%;
     top: 50%;
     transform: translateY(-50%);
-    padding: 20px;
+   
 }  
 
 .ProductInfo{
     background: rgba(209, 206, 206, 0.5);
-    border-radius: 10px;
-    width: 500px;
-    height: 500px;
+    
+    width: 600px;
+    
     position: absolute;
-    right: 5%;
+    right: 10%;
     top: 50%;
     transform: translateY(-50%);
     padding: 20px;
 }
 
 .ProductName{
-    background: #000000;
+    
     color: rgb(255, 255, 255);
     font-family: Vast Shadow;
-    font-weight: bold;
-    text-decoration: underline;
+    
+    font-size: 40px;
 
 }
 
-.InfoLabel{
-    background: #000000;
-    color: rgb(255, 255, 255);
-    font-family: Vast Shadow;
-    font-weight: bold;
-    text-decoration: underline;
 
-}
 .Rating{
     display: flex;
     align-items: center;
     margin: 10px;
+    gap: 10px;
 }
 
+.RatingLabel {
+    color: rgb(255, 255, 255);
+    font-family: Vast Shadow;
+    font-size: 15px;
+}
+
+.ProductPrice{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
+.PriceText{
+    color: rgb(255, 255, 255);
+    font-family: Vast Shadow;
+    font-size: 30px;
+
+
+}
+
+
+.InfoLabel{
+
+    color: rgb(255, 255, 255);
+    font-family: Vast Shadow;
+    font-size: 25px;
+    
+
+}
 .SelectColor{
     display: flex;
     align-items: center;
     margin: 10px;
     gap: 10px;
 }
-.color-button{
+.SelectColor button{
 
     width: 20%;
     padding: 10px;
-    border: 1px solid rgba(188, 45, 215, 0.81);
-    border-radius: 30px;
-    background-color: rgba(188, 45, 215, 0.81);
+    border: 1px solid rgba(229, 89, 255);
+    border-radius: 10px;
+    background-color: rgba(229, 89, 255);
     cursor: pointer;
 }
-    
+.SelectColor p{
+    font-family: Vast Shadow;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+
+}
+.SelectRAM{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
+.SelectRAM button{
+
+    width: 20%;
+    padding: 10px;
+    border: 1px solid rgba(195, 137, 231);
+    border-radius: 10px;
+    background-color: rgba(195, 137, 231);
+    cursor: pointer;
+}
+.SelectRAM p{
+    font-family: Vast Shadow;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+
+}
 
 
 .Quantity{
     display: flex;
     align-items: center;
     margin: 10px;
+    gap: 10px;
 
 }
-.AddorBuy{
+.CartorBuy{
     display: flex;
     align-items: center;
     margin: 10px;
-
+    gap: 10px;
 }
+.CartorBuy button{
+
+    width: 40%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255);
+    border-radius: 8px;
+    background-color: rgba(188, 45, 215);
+    cursor: pointer;
+}
+.CartorBuy p{
+
+    font-family: Staatliches;    
+    font-size: 18px;   
+    color: rgb(255, 255, 255);
+}
+
+.EmptyBox {
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    color: #fff;
+    text-align: center;
+
+  }
+  
 
 /* Mobile Menu Toggle */
 .navbar-toggle {
