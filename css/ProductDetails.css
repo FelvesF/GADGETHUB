@@ -22,6 +22,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
 }
 body {
     height: 100vh;
@@ -136,25 +137,35 @@ body {
 .ProductImage{
     background: rgba(209, 206, 206, 0.5);
     border-radius: 80px;
-    width: 500px;
-    height: 500px;
+    
+    height: 80%;
+    aspect-ratio: 1/1;
     position: absolute;
-    left: 5%;
+    left: 8%;
     top: 50%;
     transform: translateY(-50%);
-   
 }  
+
+.ProductImage img{
+    width: 100%;
+    height: 100%;
+}
+
 
 .ProductInfo{
     
     
-    width: 400px;
-    
+    width: 35%;
+height: 80%;
     position: absolute;
-    right: 10%;
+    right: 8%;
     top: 50%;
     transform: translateY(-50%);
-    padding: 20px;
+    padding: 1.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
 }
 
 .ProductName{
@@ -181,7 +192,7 @@ body {
 
 .ProductPrice{
     display: flex;
-    align-items: center;
+    justify-content: center;
     margin: 10px;
     gap: 10px;
 }
@@ -189,6 +200,7 @@ body {
     color: rgb(255, 255, 255);
     font-family: SongMyung;
     font-size: 30px;
+   
 
 
 }
@@ -204,7 +216,8 @@ body {
 }
 .SelectColor{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin: 10px;
     gap: 10px;
 }
@@ -225,7 +238,8 @@ body {
 }
 .SelectRAM{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin: 10px;
     gap: 10px;
 }
@@ -248,14 +262,16 @@ body {
 
 .Quantity{
     display: flex;
-    align-items: center;
+   
+    
     margin: 10px;
     gap: 10px;
 
 }
 .CartorBuy{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin: 10px;
     gap: 10px;
 }
