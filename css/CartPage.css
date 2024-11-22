@@ -1,8 +1,17 @@
+@font-face {
+   
+    src: url(../fonts/Inter-VariableFont_opsz,wght.ttf);
+    font-family: Inter;
+
+}
+
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: white 2px solid;
 }
 
 body {
@@ -98,9 +107,9 @@ body {
     background-color: rgba(60, 21, 105, 0.68);
     position: absolute;
     left:50%;
-    top: 50%;
-    width: 80%;
-    height: 77%;
+    top:52%;
+    width: 92.8%;
+    height: 89%;
     display: flex;
         align-items: center;
         flex-direction: column;
@@ -109,20 +118,24 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.Container * p{
+font-family: Inter;
+color:green;
+
+}
 .CartBox{
 
     background-color:lightgray;
     position: absolute;
   
-    width: 90%;
-    height: 90%;
+    width: 93%;
+    height: 88.8%;
     display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: flex-start;
     border-radius:3% ;
-padding-left: 2%;
-padding-right: 2%;
+
 }
 
 .CartBox #c1 p, #c2 p, #c3 p, #c4 p{
@@ -130,46 +143,98 @@ padding-right: 2%;
     font-size: 20px;
 }
 
-.Checkbox{
+.Checkboxtop{
 border: #fff 5px solid;
 height: 40%;
 aspect-ratio: 1/1;
-
+margin-left: 2%;
+margin-right: 1%;
 }
 
+.Checkboxbottom{
+    border: #fff 5px solid;
+    height: 40%;
+    aspect-ratio: 1/1;
+    margin-left: 2%;
+    margin-right: 1%;
+    }
+
+.Checkbox{
+    border: #fff 5px solid;
+    height: 40%;
+    aspect-ratio: 1/1;
+    margin-left: 2%;
+    margin-right: 1%;
+    }
+
 #c1{
-    height: 10%;
+    height: 12%;
     width: 100%;
 border:#000000 2px solid;
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: flex-start;
+padding-left: 1%;
+padding-right: 1%;
+border-bottom: #fff solid 3px ;
+}
+
+#PRODUCT {
+
+margin-right: 35%;
+}
+
+#UNITPRICE{
+    margin-right: 8%;
+}
+#QUANTITY{
+    margin-right: 8%;
+}
+#TOTALPRICE{
+    margin-right: 8%;
 }
 
 
-
 #c2, #c3, #c4{
-    height: 20%;
+    height: 25%;
     width: 100%;
 border:#000000 2px solid;
 display: flex;
 justify-content: center;
 flex-direction: column;
+padding-left: 2%;
+padding-right: 2%;
+
 }
 
 
 #c5{
-    height: 10%;
+    height: 13%;
     width: 100%;
 border:#000000 2px solid;
-
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
 }
+
+.Items{
+    width: 100%;
+    height: 80%;
+    background-color: rgba(182,99,219);
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: #A929FA 2px solid;
+}
+
 .top{
 
-height:20%;
+height:25%;
 width: 100%;
-background-color: rgba(182,99,219);
+
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -180,9 +245,9 @@ border-bottom: #fff solid 3px ;
 
 .bottom{
 
-    height:50%;
+    height:75%;
     width: 100%;
-    background-color: rgba(182,99,219);
+  
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -198,387 +263,91 @@ border-bottom: #fff solid 3px ;
    
     height: 70%;
     aspect-ratio: 1/1;
-    
+    margin-right: 5%;
     }
 
     
-
-
-
-
-
-
-
-
-
-    
-    .DeliveryBoxBorder {
-
-        width: 88.8%;
-        height: 12.2%;
-        margin-bottom: 2.5%;
-        
-        border: 2px solid rgba(195,137,231);
-    }
-
-    .DeliveryBox{
-        background-color: rgba(83, 34, 157);
-        width: 100%;
-        height: 100%;
-        
-        display: flex;
-        padding-left:10px ;
-        flex-direction: row;
-       
-        border-top: 2px dashed #fff;
-        }
-
-
-
-.DeliveryBox img{
-
-height: 30%;
-aspect-ratio: 1/1;
-margin-top: 1%;
-}
-
-#AddressLabel{
-    margin: 1%;
-    margin-bottom: 0%;
-                padding: 0;
-                font-size: 130%;
-               color: rgba(144,59,254);
-               text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
- font-family: Lusitana;   
-            }
-
-    
-        .ProductsOrdered{
-            background-color: rgba(83, 34, 157);
-            width: 88.8%;
-            height: 66%;
-            position: relative;
-          display: inline-block;
-            }
-    
-            #ProductsOrderedLabel{
-                margin: 2%;
-                margin-bottom: 0%;
-                            padding: 0;
-                            font-size: 130%;
-                            color: rgba(144,59,254);
-               text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
- font-family: Lusitana;   
-                }
-    
-    .ProductDetails{
-        
-        
-        height: 40%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+   
+    .Quantity{
+        width: 8%;
+        height: 50%;
         display: flex;
         flex-direction: row;
-        
+        align-items: center;
+        justify-content: center;
+        margin-right: 7%;
         }
-        .d1 {
-            flex: 2.5;
-            
+
+        .QuantityNumber{
+
+            width: 40%;
+            height: 100%; 
             display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+        .MinusPlus{
+            display: flex;
+           
             align-items: center;
             justify-content: center;
-          }
-          .d2 {
-            flex: 3;
-          
-            flex-direction: row;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-    
-          }
-.d2 p{
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    color: #fff;
-    
-   
- font-family: Lusitana;   
+            width: 30%;
+            height: 100%;
+            background-color: #fff;
+            color: rgba(83, 34, 157);
+            border: none;
+            cursor: pointer;
+            font-size: 150%;
+        }
+        
+.PRODUCTNAME{
+margin-right:8%;
+
+}
+
+.VARIATION{
+    margin-right:8%; 
+}
+.UNITPRICEVALUE{
+    margin-right:8%;
+}
+.TOTALPRICEVALUE{
+    margin-right:8%;
 }
 
 
 
-          .d3 {
-            flex: 4.5;
-          
-            flex-direction: row;
-            display: flex;
-            justify-content: space-evenly;
-          
-
-            
-          }
-
-          .d3 p{
-
-            margin: 0;
-            padding: 0;
-            font-size: 100%;
-            color: #fff;
-           
-           
-         font-family: Inter;  
-
-
-          }
-   
-    
-    .MessageShipping{
-        background-color: rgba(83, 34, 157);
-        margin-left: 2.5%;
-    margin-right: 2.5%;
-        height: 30%;
-        display: flex;
-        flex-direction: row;
-        align-items:end;
-        justify-content: center;
-        border-top: 2px solid #fff;
-    }
-
-
-    .MessageShipping p{
-        margin-right: 3%;
-        padding: 0;
-        font-size: 100%;
-        color: #000;
-       
-       
-     font-family: LuxuriousRoman;  
 
 
 
-    }
-    .Message  {
-    display: flex;
-    flex-direction: row;
-        background-color: rgba(232,132,250);
-        width: 45%;
-        height: 80%;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .MessageforSeller{
-        background-color: #fff;
-        width: 45%;
-        height: 60%;
-        }
-    .Shipping  {
-    display: flex;
-    background-color: rgba(232,132,250);
-        width: 45%;
-        height: 80%;
-        border-left: solid 2px #fff;
-        flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    }
-    .ShippingOption{
-    background-color: #fff;
-    width: 45%;
-        height: 60%;
-        display:flex;
-flex-direction: column;
-        align-items: end;
-        
-    }
-#change{
-font-size: 80%;
-text-decoration: underline;
-font-family: LibreCaslonText;
-color: rgba(83,34,157);
 
-
-
-}   
-
-    .OrderTotal  {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        
-        width: 40%;
-        height: 15%;
-        position: absolute;
-      bottom: 0;
-      right: 0;
-    }
-    
-    #OrderTotal{
-        font-size: 100%;
-       
-        font-family: Lusitana;
-        color: #fff;
-        margin-right: 3%;
-
-
-    }
-    
-    #OrderTotalValue{
-        font-size: 200%;
-       
-        font-family: Lusitana;
-        color: rgba(188,45,215,0.81);
-       
-
-
-    }
-    
-    .Summary{
-        background-color: rgba(42,14,83);
-        position: absolute;
-        right: 5%;
-        top: 20%;
-        width: 28%;
-        height: 42.8%;
-    display: flex;
-        align-items: center;
-        flex-direction: column;
-        border-radius: 5%;
-    }
-    
-    
-    .Payment  {
-    
-        width: 100%;
-       height: 20%;
-        display: flex;
-flex-direction: row;
-justify-content: center;
+        .CheckoutRectangle{
+background-color: rgba(99,99,97);
+width: 90%;
+height: 90%;
+display: flex;
+           flex-direction:row ;
 align-items: center;
-    }
-#PaymentMethod{
-    font-size: 180%;
-       
-    font-family: Lusitana;
-    color: #fff;
-    margin-right: 3%;
 
-
-}
-    
-.PaymentOption  {
-   height: 40%;
-   width: 40%;
-   background-color: rgba(229,89,255,0.52);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:5%;
-    align-items: center;
-    margin-left: 3%;
-}
-
-.PaymentOption p{
-    font-size: 150%;
-       
-    font-family: Acme;
-    color: #fff;
-    
-
-}
-
-
-    .dropdown {
-background-color: rgba(144,59,254);
-height: 70%;
-   aspect-ratio: 1/1;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    }
-
-
-
-    
-    .Calculation {
-        
-        
-        width: 100%;
-        height: 60%;
-        display: flex;
-        flex-direction: row;
-       
-        border-top: 2px solid #fff;
-        border-bottom: 2px solid #fff;
-    }
-    .CalculationLabel  {
-    flex: 1;
-       
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    align-items:flex-start;
-    flex-wrap: wrap;
-
-
-    }
-    .CalculationLabel p {
-       
-       margin-left: 20%;
-       font-size: 150%;
-       
-       font-family: Acme;
-       color: #fff;
         }
-    
-    .CalculationValue  {
-    flex: 1;
-       
-        display: flex;
-        flex-direction: column;
-        justify-content:space-evenly;
-    align-items:center;
-   
+
+    #Selectallbox{
+        border: #fff 5px solid;
+height: 40%;
+aspect-ratio: 1/1;
     }
-    .CalculationValue p {
-       
-        font-size: 150%;
-        
-        font-family: Acme;
-        color: #fff;
-        margin-top:4% ;
-         }
 
-#TotalPayment{
+    #Selectall{
+width: 20%;
+height: 50%;
+border: black 2px solid;
 
-    font-size: 250%;
-   margin-top: 0;
-}
-
-
-    .PlaceOrder {
-       
-        background-color: rgba(229,89,255);
-        width: 35%;
-        height: 10%;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        bottom: 4%;
-        right: 4%;
     }
-    .PlaceOrder p{
-        font-size: 150%;
-       
-        font-family: Acme;
-        color: #fff;
-    }
-    
-    
-    
 
+    #CheckoutButton{
+        width: 20%;
+        height: 50%;
+        border: black 2px solid;
+    }
