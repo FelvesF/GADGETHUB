@@ -1,0 +1,305 @@
+@font-face {
+   
+    src: url(../fonts/Inter-VariableFont_opsz,wght.ttf);
+    font-family: Inter;
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../IMAGE/BlackBackground.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .16);
+    padding: 10;
+    height: 7%;
+   
+}
+
+.logo {
+    height: 50px;
+    margin: 0;
+    transform: translate(0, -30%);
+}
+
+.Checkout h1{
+    color: rgba(195, 43, 255, 1);
+    font-family: VastShadow;
+    font-weight: 100;
+    
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    background-color: #A929FA;
+    border: #ffffff 2px solid;
+    border-radius: 30px;
+    padding: 5px;
+    height: 40px;
+}
+
+.search-container input{
+    background-color: transparent;
+}
+.search-container input ::placeholder{
+    color: #000000;
+    font-family: VastShadow;
+    font-size: medium;
+}
+#search-bar {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    flex: 1;
+}
+
+#search-icon {
+    padding: 8px;
+    
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+#search-icon img {
+    width: 20px;
+    height: 20px;
+}
+.cart-user{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.cart-user img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+
+}
+.cart-user span{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 5px;
+    height: 30px;
+    
+}
+
+
+.Container{
+    background-color: rgba(49,49,49);
+    position: absolute;
+    left:50%;
+    top:52%;
+    width: 92.8%;
+    height: 84%;
+    display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+   border: rgba(99,99,97) 1px solid;
+        border-radius:3% ;
+    transform: translate(-50%, -50%);
+}
+
+.Container * p{
+font-family: Inter;
+color:white;
+
+}
+.CartBox{
+
+    background-color: rgba(131,131,126,0.51);
+    position: absolute;
+  
+    width: 93%;
+    height: 88.8%;
+    display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        border: rgba(99,99,97) 1px solid;
+    border-radius:3% ;
+
+}
+
+.CartBox #c1 p, #c2 p, #c3 p, #c4 p{
+    
+    font-size: 20px;
+}
+
+
+
+
+
+
+#c1{
+    height: 12%;
+    width: 100%;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+padding-left: 1%;
+padding-right: 1%;
+border-bottom: rgba(99,99,97) solid 2px ;
+}
+
+
+
+#UNITPRICE{
+    margin-left: 43%;
+}
+#QUANTITY{
+    margin-left: 5%;
+}
+#TOTALPRICE{
+    margin-left: 4%;
+}
+
+#STATUS{
+    margin-left: 7%;
+}
+
+#c2, #c3, #c4{
+    height: 180px;
+    width: 100%;
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding-left: 2%;
+padding-right: 2%;
+border-bottom: rgba(99,99,97) solid 2px ;
+
+}
+
+
+#c5{
+    height: 13%;
+    width: 100%;
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.Items{
+    width: 100%;
+    height: 80%;
+    background-color: #000;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.top{
+
+height:25%;
+width: 98%;
+
+border-bottom: rgba(99,99,97) solid 2px ;
+
+}
+
+.bottom{
+
+    height:75%;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+   
+    
+    }
+
+
+  
+.ProductImage{
+    background-color: #fff;
+   
+    height: 70%;
+    aspect-ratio: 1/1;
+    margin-left: 5%;
+    margin-right: 3%;
+    }
+
+    
+   
+
+
+        
+.PRODUCTNAME{
+    margin-right: 8%;
+
+}
+
+.VARIATION{
+    margin-right: 8%;
+}
+.UNITPRICEVALUE{
+    margin-right: 8%;
+}
+
+.QUANTITYVALUE{
+
+    margin-right: 8%;
+}
+
+
+.TOTALPRICEVALUE{
+    margin-right: 8%;
+}
+
+.PENDING{
+
+    margin-right: 8%;
+}
+
+
+#CancelButton{
+    
+  
+       background-color: rgba(99,99,97);
+       color: white;
+       height: 30px;
+       width: 100px;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+       
+
+}
+
+
+
+    
+
+
+
+

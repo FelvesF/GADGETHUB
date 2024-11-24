@@ -1,0 +1,249 @@
+@font-face {
+   
+    src: url(../fonts/Inter-VariableFont_opsz,wght.ttf);
+    font-family: Inter;
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../IMAGE/BlackBackground.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .16);
+    padding: 10;
+    height: 7%;
+   
+}
+
+.logo {
+    height: 50px;
+    margin: 0;
+    transform: translate(0, -30%);
+}
+
+.Checkout h1{
+    color: rgba(195, 43, 255, 1);
+    font-family: VastShadow;
+    font-weight: 100;
+    
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    background-color: #A929FA;
+    border: #ffffff 2px solid;
+    border-radius: 30px;
+    padding: 5px;
+    height: 40px;
+}
+
+.search-container input{
+    background-color: transparent;
+}
+.search-container input ::placeholder{
+    color: #000000;
+    font-family: VastShadow;
+    font-size: medium;
+}
+#search-bar {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    flex: 1;
+}
+
+#search-icon {
+    padding: 8px;
+    
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+#search-icon img {
+    width: 20px;
+    height: 20px;
+}
+.cart-user{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.cart-user img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+
+}
+.cart-user span{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 5px;
+    height: 30px;
+    
+}
+
+
+.Container{
+    background-color: rgba(49,49,49);
+    position: absolute;
+    left:50%;
+    top:52%;
+    width: 92.8%;
+    height: 84%;
+    display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+   border: rgba(99,99,97) 1px solid;
+        border-radius:3% ;
+    transform: translate(-50%, -50%);
+}
+
+.Brands{
+
+    background-color: rgba(49,49,49);
+    width: 70%;
+    height: 40%;
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.BrandsTitle{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.BrandsGrid {
+    
+    width: 100%;
+    
+    height: auto;
+    display: grid;
+    border: 1px solid white;
+grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 10px;
+  background-color: black;
+ 
+}
+
+
+.branditem{
+   background-color: white;
+width:100%;
+aspect-ratio: 1/1;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 3px solid black;
+border-radius: 10%;
+
+}
+
+
+.branditem img{
+width:90%;
+height:90%;
+object-fit: scale-down;
+
+}
+
+.Category{
+
+    background-color: rgb(206, 23, 23);
+    width: 70%;
+    height: 40%;
+    position:absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.CategoryGrey{
+    background-color: #A929FA;
+    width: 100%;
+    height: 30%;
+
+}
+
+.CategoryHeader{
+
+    background-color: #fad429;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.RAM{
+position:absolute;
+right:5%;
+    background-color: #29fabb;
+    width: 100px;
+    height: 30px;
+}
+
+.CategoryGrid{
+    background-color: black;
+    width: 100%;
+   
+    height: auto;
+    display: grid;
+    border: 1px solid white;
+grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 80px;
+  
+  
+  padding-top: 30px;
+}
+
+.categoryitem{
+width:100%;
+aspect-ratio: 1/1;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.categoryitem img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    
+    }
