@@ -28,7 +28,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('../IMAGE/BG.png');
+    background-color: black;
     background-size: cover;
     background-position: center;
 }
@@ -79,7 +79,7 @@ body {
     display: flex;
     align-items: center;
     margin-left: auto;
-    background-color: #A929FA;
+    background-color: #636361;
     border: #ffffff 2px solid;
     border-radius: 30px;
     padding: 5px;
@@ -225,9 +225,9 @@ height: 80%;
 
     width: 30%;
     padding: 10px;
-    border: 1px solid rgba(229, 89, 255);
+    border: 1px solid #636361;
     border-radius: 10px;
-    background-color: rgba(229, 89, 255);
+    background-color: #636361;
     cursor: pointer;
 }
 .SelectColor p{
@@ -247,9 +247,9 @@ height: 80%;
 
     width: 30%;
     padding: 10px;
-    border: 1px solid rgba(195, 137, 231);
+    border: 1px solid #636361;
     border-radius: 10px;
-    background-color: rgba(195, 137, 231);
+    background-color:#636361;
     cursor: pointer;
 }
 .SelectRAM p{
@@ -279,9 +279,9 @@ height: 80%;
 
     width: 40%;
     padding: 10px;
-    border: 1px solid rgba(255, 255, 255);
+    border: 1px solid #636361;
     border-radius: 8px;
-    background-color: rgba(188, 45, 215);
+    background-color: #636361;
     cursor: pointer;
 }
 .CartorBuy p{
