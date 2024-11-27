@@ -202,25 +202,6 @@ font-size: 20px;
     
 }
 
-
-
-
-/* Mobile Menu Toggle */
-.navbar-toggle {
-    position: absolute;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.navbar-toggle span {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 4px;
-    transition: 0.3s;
-}
 /* Main content styling */
 .container{
     display: flex;
